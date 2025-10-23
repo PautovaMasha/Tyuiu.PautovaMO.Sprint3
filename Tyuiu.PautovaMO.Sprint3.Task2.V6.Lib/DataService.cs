@@ -8,7 +8,7 @@ namespace Tyuiu.PautovaMO.Sprint3.Task2.V6.Lib
             double ressum = 1;
             do
             {
-                ressum = ressum * (Math.Pow(value, startValue) + 1 * Math.Cos(4));
+                ressum = ressum * ((Math.Pow(value, startValue) + 1) * Math.Cos(4));
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(ressum, 3);
