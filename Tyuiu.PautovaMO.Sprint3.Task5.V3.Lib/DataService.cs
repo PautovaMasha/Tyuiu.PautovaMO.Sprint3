@@ -9,9 +9,9 @@ namespace Tyuiu.PautovaMO.Sprint3.Task5.V3.Lib
             int i, j;
             for (i = startValue1; i<= stopValue1; i++)
             {
-                for (j = startValue1; j <= stopValue1; j++)
+                for (j = startValue2; j <= stopValue2; j++)
                 {
-                    res = res + ((Math.Sin(x) + x)/(x));
+                    res = res + ((Math.Sin(j) + x)/x);
                 }
 
             }

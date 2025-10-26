@@ -16,7 +16,7 @@ namespace Tyuiu.PautovaMO.Sprint3.Task5.V3.Test
             int stopValue2= 11;
 
             double res = ds.GetSumSumSeries(x,startValue1, startValue2, stopValue1, stopValue2);
-            double wait = 7.274;
+            double wait = 33.247;
             Assert.AreEqual(wait, res);
 
         }
